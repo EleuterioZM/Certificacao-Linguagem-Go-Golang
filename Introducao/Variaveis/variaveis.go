@@ -2,9 +2,18 @@ package main
 
 import "fmt"
 
-func main() {
-	var nome  = "Eleuterio"
-	var idade = 22
+func maina() {
+
+	// var (
+	// 	idade := 22
+	// 	altura = 166
+	// 	nome = "Eleuterio"
+	// )
+	
+	idade := 22
+	altura := 166
+	nome := "Eleuterio"
+	
 	fmt.Println("O meu nome e ", nome)
-	fmt.Println("Minha idade", idade)
+	fmt.Println("Minha idade", idade, "Altura", altura)
 }
