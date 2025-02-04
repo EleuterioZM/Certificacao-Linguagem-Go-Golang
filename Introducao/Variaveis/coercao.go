@@ -5,7 +5,7 @@ import (
 
 )
 
-func main() {
+func main_co() {
 var a int = 45
 var b float64 = 6.4
 var c float64 = float64(a)
