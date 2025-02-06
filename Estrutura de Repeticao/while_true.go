@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main___() {
     i := 0
 
     for { // Loop infinito (while true)
