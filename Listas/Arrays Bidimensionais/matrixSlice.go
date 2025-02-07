@@ -5,7 +5,7 @@ import (
 	
 )
 
-func main() {
+func main___() {
 
 	tabuleiro := [][]string{
 		{"X", "_", "_"},
