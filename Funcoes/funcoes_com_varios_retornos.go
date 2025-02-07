@@ -15,7 +15,7 @@ func calcular(a int) (quadrado int, cubo int) {
 	return
 }
 
-func main() {
+func main_() {
 
 	fmt.Println(calcular(2))
 
