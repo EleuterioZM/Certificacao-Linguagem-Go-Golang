@@ -2,18 +2,25 @@ package main
 
 import "fmt"
 
-type Pessoa1 struct {
+type Pessoa struct {
 	Nome, Sobrenome string
 }
 
 // Método NomeCompleto retorna o nome completo da pessoa
-func (p Pessoa) NomeCompleto2() string {
+func (p Pessoa) NomeCompleto() string {
 	return p.Nome + " " + p.Sobrenome
 }
 
-func main_() {
+
+func FuncaoNomeCompleto(p Pessoa) string {
+	return p.Nome +" "+ p.Sobrenome;
+}
+
+
+func main() {
 	alguem := Pessoa{"Jose", "Zacarias"}
 
 	// Imprime o nome completo
 	fmt.Println(alguem.NomeCompleto())
+	fmt.Println(FuncaoNomeCompleto(alguem))
 }
